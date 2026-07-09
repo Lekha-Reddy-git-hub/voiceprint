@@ -1,0 +1,7 @@
+# Your voice profiles are personal data. Never publish them by accident.
+profiles/
+*.profile.md
+
+# OS noise
+.DS_Store
+__pycache__/
