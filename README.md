@@ -44,13 +44,17 @@ De-slopping is built in (`deslop.md`), so voiceprint works on its own.
 
 ## Install
 
+**One line. Works in Claude Code, Cursor, and Codex:**
+
 ```bash
-# Claude Code
-cp -r voiceprint ~/.claude/skills/voiceprint
+npx skills add Lekha-Reddy-git-hub/voiceprint
 ```
 
-- **Claude.ai Projects:** upload `SKILL.md` plus the reference files
-- **Anything else:** paste `SKILL.md` into your system prompt
+**No setup (Claude or ChatGPT).** Open [`SKILL.md`](SKILL.md), copy it, paste it
+into a chat, then feed it a few of your own writing samples to build your profile.
+
+**Always on.** Upload `SKILL.md` plus the reference files to a Claude Project or a
+Custom GPT's instructions.
 
 ## Pairs with stop-ai-slop
 

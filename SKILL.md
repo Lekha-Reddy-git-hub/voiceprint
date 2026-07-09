@@ -1,6 +1,6 @@
 ---
 name: voiceprint
-description: Learn a person's writing voice from their own samples and render their raw thoughts as finished prose in that voice, with an evidence-based audit report. Use when the user wants writing that sounds like them, wants their notes or thought-dumps turned into posts, emails, or essays in their own style, or asks "does this sound like me / like AI?"
+description: Learn a person's writing voice from their own samples, then render their raw thoughts as finished prose that sounds like them, with an evidence-based audit. Use this whenever writing should sound like the user and not generic AI, for example "make this sound like me", "write this in my voice", "turn my notes into a post or email in my style", or "does this sound like me or like AI?". Builds a style fingerprint from 5 or more of the user's own samples, renders drafts in that voice, de-slops them (gated by the profile so real quirks survive), and reports counted evidence instead of an AI-or-not verdict.
 ---
 
 # Voiceprint
