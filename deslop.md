@@ -29,6 +29,33 @@ world of", "in today's fast-paced".
 - One-word or two-word fragments for drama: cap near the user's rate.
 - Bold section headers, emoji bullets: keep only if the user actually uses them.
 
+## Structural tells from the full catalog (profile-gated)
+
+Preloaded from stop-ai-slop. Apply ONLY where the pattern is not the user's own
+voice. Some people genuinely write passively or open sentences with "Why"; if the
+profile marks the habit as theirs, keep it. Otherwise cut.
+
+- **Em dashes: remove.** Match the user's baseline, default to commas, colons, or
+  periods. Repeated here because it is the single most-cited tell.
+- **Passive voice.** Find the actor and put them at the front ("the team shipped
+  it", not "it was shipped"), unless the actor is genuinely unknown or the profile
+  shows a passive habit.
+- **Wh- sentence openers.** Sentences that open with What, When, Where, Which, Who,
+  Why, or How as a setup ("What makes this hard is..."). Restructure to lead with
+  the subject, unless the user opens this way by habit.
+- **Narrator from a distance.** "Nobody designed this", "This happens because",
+  "People tend to". Put the reader in the room instead.
+- **Vague declaratives.** "The reasons are structural", "the stakes are high", "the
+  implications are significant". Replace with the specific thing, or cut.
+- **Negative listing.** "Not a ticket. Not a checklist. A way of thinking." State
+  the thing without the runway.
+- **False agency.** "The data tells us", "the market rewards", "the culture shifts".
+  Name the human who actually did it.
+
+If stop-ai-slop is installed, prefer running its full `catalog.md` and
+`false-positives.md` here, still gated by the profile. This bundled list is the
+standalone fallback.
+
 ## Sycophancy and hedging (cut in the user's own voice)
 
 - "Great question", "You're absolutely right", "I'd be happy to".
