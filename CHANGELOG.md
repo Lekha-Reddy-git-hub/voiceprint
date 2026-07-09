@@ -1,12 +1,13 @@
 # Changelog
 
-## v1.0.0 — 2026-07-09
+## v1.0.0 (2026-07-09)
 
 First release. Four organs: Profile, Render, Audit, Learn.
 
 - SKILL.md pipeline with first-person scope rule and cold-start fallback
-- voiceprint-template.md with 10 fingerprint dimensions + Learned log
+- voiceprint-template.md with 10 fingerprint dimensions plus a Learned log
 - style_vector.py: objective style measurement (rhythm, punctuation, regularity)
+- deslop.md: bundled slop removal for Render Pass C, so voiceprint works alone
 - Receipts-not-verdicts auditing, baseline-relative scoring
 - Sample dating, mess signature, and over-polish flag identified during testing;
   scheduled for v1.1
